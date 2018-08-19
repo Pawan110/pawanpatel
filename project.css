@@ -62,6 +62,7 @@ color: blueviolet;
     width: 100%;
     background-color: aqua;
     margin: 20px auto;
+    box-shadow:5px 5px black ,-5px -5px black;
 }
 #expenseDiv{
     height: 60px;
