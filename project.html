@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Budget Project </title>
+    <link rel="stylesheet" href="project.css">
+</head>
+<body>
+    <div id="mainDiv">
+        <div id="div1">
+            <div id="innerDivOfDiv1">
+                <h1 id="innerDivH1"></h1>
+                <h1 id="totalAmount">0.00</h1>
+                <div id="incomeDiv">
+                    <h2 class="heading2">INCOME</h2>
+                    <h1 class="heading1" id="incomeTotal">0.00</h1>
+                </div>
+                <div id="expenseDiv">
+                        <h2 class="heading2">EXPENSES</h2>
+                        <h1 class="heading1" id="expenseTotal">0.00</h1>
+                </div>
+
+            </div>
+        </div>
+        <div id="div2">
+                <div id="innerDivOfDiv2">
+                    <div id="rbtndiv">
+                    <input type="radio" name="choose" id="incomeRbtn" value="income" checked>INCOME<br>
+                    <input type="radio" name="choose" id="expenseRbtn" value="expense">EXPENSES
+                    </div>
+                    <div id="textdiv">
+                        <input type="text" name="description" id="description" placeholder="Add Description....">
+                        <input type="number" name="amount" id="amount" placeholder="Enter Amount">
+                        <input type="submit" value="Add" id="addbtn">
+                    </div>
+                </div>
+
+        </div>
+        <div id="div3">
+            <div class="List"  id="incDiv">
+                <h1 id="incListh1">Income:</h1>
+            </div>
+            <div class="List" id="expDiv">
+                <h1 id="expListh1">Expenses:</h1>
+            </div>
+        </div>
+
+    </div>
+    <script src="project.js"></script>
+</body>
+</html>

@@ -1,0 +1,136 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#mainDiv{
+    min-height: 100%;
+    width: 100%;
+    border: 1px solid black;
+    animation:  pawan 4s linear;
+}
+@keyframes pawan{
+    0%{
+        transform: scale(0);
+    }
+    50%{
+        transform: scale(0.5);
+    }
+   100%{
+        transform: scale(1);
+    }
+}
+#div1{
+    width: 100%;
+    height: 300px;
+    background-image: url(imgp.jpg);
+    background-size: cover;
+    position: sticky;
+}
+#div2{
+    width: 100%;
+    height: 60px;
+    border: 1px solid green;
+    background-color: darkgray;
+}
+#div3{
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    justify-content: space-around;
+   
+}
+#innerDivOfDiv1{
+    height: 100%;
+    width: 400px;
+    margin: auto;
+    text-align: center;
+}
+#innerDivH1{
+color: blueviolet;
+}
+#totalAmount{
+    color: green;
+    margin:10px auto;
+}
+#incomeDiv{
+    height: 60px;
+    width: 100%;
+    background-color: aqua;
+    margin: 20px auto;
+}
+#expenseDiv{
+    height: 60px;
+    width: 100%;
+    background-color: red;
+    margin: 20px auto;
+}
+.heading2{
+    float:left;
+    line-height: 60px;
+    margin-left: 20px;  
+}
+.heading1{
+    float: right;
+    line-height: 60px;
+    margin-right: 20px;
+    color: aliceblue;
+}
+#innerDivOfDiv2{
+    height: 40px;
+    width: 700px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+}
+#rbtndiv{
+    margin-top: 2px;
+}
+#description{
+    height: 100%;
+    width: 250px;
+    font-size:18px;
+
+}
+#amount{
+    height: 100%;
+    width: 140px;
+    font-size:18px;
+}
+#addbtn{
+    height: 100%;
+    width: 100px;
+
+}
+.List{
+    margin: 30px;
+    min-height: 250px;
+    width: 500px;
+    text-align: center;
+    
+}
+#incListh1{
+    color: green;
+}
+#expListh1{
+    color: red;
+}
+.createdDv{
+    width: 100%;
+    height: 60px;
+    border-top: 1px solid black;
+}
+.heading21{
+    float: left;
+    margin-left: 20px;
+    line-height: 60px;
+}
+.heading22{
+    float: right;
+    margin-right: 20px;
+    line-height: 60px;
+}
